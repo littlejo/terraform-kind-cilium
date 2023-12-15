@@ -22,7 +22,7 @@ resource "kind_cluster" "this" {
 resource "cilium" "this" {
   helm_set = [
     "ipam.mode=kubernetes",
-    "ipam.operator.replicas=1",
+    "operator.replicas=1",
     "tunnel=vxlan",
   ]
   version = "1.14.4"
