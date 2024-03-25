@@ -3,7 +3,7 @@ terraform {
   required_providers {
     kind = {
       source  = "tehcyx/kind"
-      version = "0.2.1"
+      version = "0.4.0"
     }
     cilium = {
       source  = "littlejo/cilium"
